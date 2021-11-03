@@ -2,7 +2,7 @@
 	"name": "semicolon-comma-and-productive-keybindings",
 	"displayName": "Semicolon/Comma and Productive Keybindings",
 	"description": "Appends a semicolon or comma to the end of the current line and also provides productive keybindings.",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"publisher": "ShujaatAliKhan",
 	"license": "GPL-3.0",
 	"homepage": "https://github.com/shujaatak/semicolon-comma-and-productive-keybindings",
@@ -51,15 +51,16 @@
 				"when": "editorTextFocus && !editorReadonly"
 			},
 			{
-				"key": "shift+alt+enter",
+				"key": "alt+enter",
 				"command": "semicolon-comma-and-productive-keybindings.comma",
 				"when": "editorTextFocus && !editorReadonly"
 			},
 			{
-				"key": "alt+enter",
+				"key": "shift+alt+enter",
 				"command": "editor.action.insertLineAfter",
 				"when": "editorTextFocus && !editorReadonly"
 			},
+			
 			{
 				"key": "alt+k",
 				"command": "cursorDown",

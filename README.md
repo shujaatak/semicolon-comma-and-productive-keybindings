@@ -6,9 +6,9 @@ This extension appends a semicolon or comma to the end of the current line and a
 
 `SHIFT + Enter` : Append a semicolon to the end of the current line
 
-`SHIFT + Alt + Enter` : Append a comma to the end of the current line
+`Alt + Enter` : Append a comma to the end of the current line
 
-`Alt + Enter` : [Line Action] Insert a line below the current line
+`SHIFT + Alt + Enter` : [Line Action] Insert a line below the current line
 
 `Alt + D` : [Line Action] [Deletion] Delete the current line
 
